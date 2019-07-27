@@ -1,17 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Fruits from "./Fruits";
+import Game from "./GameComponent";
 
 import "./styles.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <Fruits />
+      <Game />
     </div>
   );
 }
 
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+ReactDOM.render(<App />, document.getElementById("root"));
