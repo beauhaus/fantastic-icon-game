@@ -1,7 +1,7 @@
 import React from "react";
 
 const Emoticon = props => {
-  return <div>{props.icon}</div>;
+  return <div className="emoticon">{props.icon}</div>;
 };
 
 export default Emoticon;

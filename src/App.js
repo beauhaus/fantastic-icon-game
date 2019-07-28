@@ -1,16 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-import Game from "./GameComponent";
-
 import "./styles.css";
+import GameContainer from "./GameContainer";
 
 function App() {
   return (
     <div className="App">
-      <Game />
+      <GameContainer />
     </div>
   );
 }
 
 ReactDOM.render(<App />, document.getElementById("root"));
+
+/* <Header />
+<Game />
+<Foot /> */
