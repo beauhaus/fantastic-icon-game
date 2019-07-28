@@ -1,7 +1,7 @@
 {
   "name": "findbug",
   "version": "1.0.0",
-  "description": "",
+  "description": "React Project for Noble Desktop",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
