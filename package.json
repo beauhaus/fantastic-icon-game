@@ -1,8 +1,10 @@
 {
-  "name": "findbug",
+  "name": "find-eric-cartman",
   "version": "1.0.0",
   "description": "React Project for Noble Desktop",
-  "keywords": [],
+  "keywords": [
+    "ericcartman"
+  ],
   "main": "src/App.js",
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "7.5.5",
@@ -20,5 +22,10 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

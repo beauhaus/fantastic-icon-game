@@ -5,13 +5,13 @@ import Emoticon from "./Emoticon";
 const StyledGameComponent = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minMax(50px, 1fr));
+  margin-top: 6vh;
   & img {
     width: 50%;
     margin: 0 auto;
   }
 `;
 const GameComponent = props => {
-  // console.log("p>GC: ", props.emojiArray);
   return (
     <StyledGameComponent className="game-wrapper">
       {props.gameArray.map((item, idx) => (

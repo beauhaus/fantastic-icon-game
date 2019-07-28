@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 // import Header from "./Header"; <Header />
 import Game from "./GameComponent";
-import Footer from "./Footer";
+import Prompt from "./Prompt";
 import emojiArray from "./data/emoticonDB";
 
 class GameContainer extends Component {
@@ -34,12 +34,14 @@ class GameContainer extends Component {
   render() {
     return (
       <div>
-        <button onClick={this.startClickHandler}>
+        <button className="btn-play" onClick={this.startClickHandler}>
           {this.state.playGame ? "END" : "PLAY"}
         </button>
-        <button onClick={this.playAgainClickHandler}>sort</button>
+        <button className="btn-sort" onClick={this.playAgainClickHandler}>
+          SORT
+        </button>
         {this.state.playGame ? <Game gameArray={this.state.gameArray} /> : ""}
-        <Footer />
+        <Prompt />
       </div>
     );
   }

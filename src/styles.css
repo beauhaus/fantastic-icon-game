@@ -38,10 +38,21 @@ div.app-container {
   width: 80vw;
   margin: 1vh auto;
   display: grid;
-  /* border: 1px solid red; */
-  /* grid-template-columns: repeat(auto-fit, minMax(50px, 1fr)); */
 }
-
+button {
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+}
+.btn-sort {
+  right: 30vw;
+}
+.btn-play {
+  left: 30vw;
+}
 /* .game-comp-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minMax(50px, 1fr));
